@@ -1,0 +1,9 @@
+Pour le résolveur, quelque chose d'assez basique. (j'ignore s'il fallait prendre en compte les valeurs déjà affichées)
+
+Si la case solveur de la ligne ou de la colonne indique qu'il y a 0 bombes, alors c'est un bon candidat et on s'arrête là
+
+Sinon, on fait la moyenne des valeurs bombes des solveurs / 6 et la moyenne des sommes ligne/colonne / 6
+
+Si la ligne d'une cellule a moins de bombes, alors cette cellule devient le nouveau candidat.
+
+Ensuite, on compare les moyennes des sommes ligne/colonne / 6.

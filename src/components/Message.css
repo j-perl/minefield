@@ -1,0 +1,7 @@
+.Message.won{
+	color: green;
+}
+
+.Message.lost{
+	color: red;
+}

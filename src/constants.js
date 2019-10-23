@@ -1,0 +1,14 @@
+const constants = {
+	REVEAL_CELL: "REVEAL_CELL",
+	RESET_GAME: "RESET_GAME",
+	CELL: "CELL",
+	SOLVER_CELL: "SOLVER_CELL",
+	WIN_GAME: "WIN_GAME",
+	LOSE_GAME: "LOSE_GAME",
+	HINT: "HINT",
+	STATE_RUNNING: 0,
+	STATE_WON: 1,
+	STATE_LOST: 2 
+}
+
+export default constants

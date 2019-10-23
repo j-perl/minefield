@@ -1,0 +1,16 @@
+.Cell {
+	vertical-align: bottom;
+	background-color: #387e23;
+	width: 70px;
+	height: 70px;
+	border: 0;
+	margin: 5px;
+}
+
+.Cell.suggested {
+	background-color: #ec8f54;
+}
+
+.Cell.revealed {
+	background-color: #b9e2b6;
+}

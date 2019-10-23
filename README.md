@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Minefield
+
+The object of the game is to reach 45 points by clicking on the cells (values ranging from 1 to 3) without ever stepping on a bomb.
+
+## Tests
+
+Tests are available in App.test.js (yarn test). Tests are not exhaustive (unfortunately). Only reducers have been tested.
+
 ## Available Scripts
 
 In the project directory, you can run:
