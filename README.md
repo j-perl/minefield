@@ -8,6 +8,10 @@ The object of the game is to reach 45 points by clicking on the cells (values ra
 
 Tests are available in App.test.js (yarn test). Tests are not exhaustive (unfortunately). Only reducers have been tested.
 
+## Installation
+
+Be sure to run `npm i` to install dependencies
+
 ## Available Scripts
 
 In the project directory, you can run:
