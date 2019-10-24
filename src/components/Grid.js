@@ -1,10 +1,6 @@
 import React from 'react'
 import Cell from './Cell'
 import SolverCell from './SolverCell'
-import ButtonNewGame from './ButtonNewGame'
-import Score from './Score'
-import Message from './Message'
-import Hint from './Hint'
 import { connect } from 'react-redux'
 
 
@@ -26,8 +22,6 @@ class Grid extends React.Component {
 
     return (
       <div>
-        <ButtonNewGame />
-        <Hint />
         <div className="grid-row">
           {this.renderCell(0)}{this.renderCell(1)}{this.renderCell(2)}{this.renderCell(3)}{this.renderCell(4)}{this.renderCell(5)}{this.renderSolverCell(0)}
         </div>
@@ -49,8 +43,6 @@ class Grid extends React.Component {
         <div className="grid-row">
           {this.renderSolverCell(6)}{this.renderSolverCell(7)}{this.renderSolverCell(8)}{this.renderSolverCell(9)}{this.renderSolverCell(10)}{this.renderSolverCell(11)}
         </div>
-        <Message />
-        <Score />
       </div>
     );
   }
