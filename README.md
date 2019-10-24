@@ -6,7 +6,7 @@ The object of the game is to reach 45 points by clicking on the cells (values ra
 
 ## Tests
 
-Tests are available in App.test.js (yarn test). Tests are not exhaustive (unfortunately). Only reducers have been tested.
+Tests are available in App.test.js (yarn test). Tests are not exhaustive yet. Only reducers have been tested.
 
 ## Installation
 
